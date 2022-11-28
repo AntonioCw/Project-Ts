@@ -6,6 +6,12 @@
   <router-view/>
 </template>
 
+<script>
+import './assets/styles/app.scss'
+export default {
+
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
