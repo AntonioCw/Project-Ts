@@ -13,6 +13,6 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 createApp(App)
     .use(store)
     .use(router)
-    .use(BootstrapVue)
-    .use(IconsPlugin)
+    .use(BootstrapVue as any)
+    .use(IconsPlugin as any)
     .mount('#app')
